@@ -1,0 +1,42 @@
+/* Solid color background */
+.solid-bg {
+  background-color: #3498db; /* Bright blue */
+  color: white;
+  padding: 20px;
+}
+
+/* Gradient background */
+.gradient-bg {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient */
+  color: white;
+  padding: 20px;
+}
+
+/* Image background */
+.image-bg {
+  background-image: url('https://example.com/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+}
+
+/* Pattern background using repeating gradient */
+.pattern-bg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #f06,
+    #f06 10px,
+    #fff 10px,
+    #fff 20px
+  );
+  color: black;
+  padding: 20px;
+}
+
+/* Transparent background with overlay */
+.overlay-bg {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  color: white;
+  padding: 20px;
+}
